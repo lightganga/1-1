@@ -4,8 +4,37 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <script>
+        const b=20;
+        console.log(b);
+    </script>
+    <script src="b1.js"></script>
+    <style>
+    h1{
+        color:aqua;
+    }
+    </style>
 </head>
 <body>
+    <!--
+    html 화면에 나오게 하는거
+    css 화면에 조금 더 디자인하는거
+    
+    cmd + x 한줄삭제
+    cmd + s 저장
+    cmd + r 새로고침
+    cmd + -> 소스 제일 오른쪽으로
+    cmd + <- 소스 제일 왼쪽으로
+    tab 들여쓰기
+    shift + tap 내어쓰기
+    shift + 화살표 위로 밑으로
+    -->
     <h1>안녕하세요 1학년 1반입니다. 오후입니다.? 수업에 집중하셔야 되요..</h1>
 </body>
 </html>
+<script>
+    const qqq=document.getElementsByTagName('h1');
+    qqq[0].onclick=function(){
+        alert('눌렀음');
+    }
+</script>
